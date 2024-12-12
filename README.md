@@ -1,7 +1,20 @@
-# Hi there, I'm Yosefther 👋
-Welcome to my GitHub profile! I'm passionate about technology, coding, and creating impactful projects.
+### Hi there! 👋
+I'm a developer passionate about combining programming, visuals, and mathematics to create engaging and innovative projects. I specialize in C# and enjoy exploring tools like OpenTK to bring ideas to life.
 
-# 🌱 My Goals
-To create open-source projects that benefit the developer community.
-To continuously improve my skills and share my learning journey.
-To contribute to meaningful collaborations and innovative ideas.
+### 💻 Interests:
+
+C# programming and application development.
+Creating stunning visuals and graphics using OpenTK and similar frameworks.
+Exploring mathematical concepts and algorithms to solve complex problems.
+
+### 🚀 Skills:
+- Advanced C# and .NET programming.
+- Graphics programming and rendering techniques.
+- Problem-solving with a strong foundation in math and algorithms.
+### 📂 What You’ll Find Here:
+
+- Visual and interactive projects powered by OpenTK.
+- Mathematical explorations implemented in code.
+- Hands-on examples and practical implementations of programming concepts.
+
+**🌟 Let’s build something visually captivating and mathematically robust together!**
