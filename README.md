@@ -18,3 +18,13 @@ Exploring mathematical concepts and algorithms to solve complex problems.
 - Hands-on examples and practical implementations of programming concepts.
 
 **🌟 Let’s build something visually captivating and mathematically robust together!**
+⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️ 🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩                        
+⬜️⬜️⬜️⬛️⬛️⬛️⬛️⬛️⬜️⬜️⬜️ 🟩🟩⬜🟩🟩🟩🟩⬜🟩🟩
+⬜️⬜️⬛️⬜️⬜️⬜️⬜️⬜️⬛️⬜️⬜️ 🟩🟩⬜⬜🟩🟩⬜⬜🟩🟩
+⬜️⬜️⬛️⬜️⬛️⬜️⬛️⬜️⬛️⬜️⬜️ 🟩🟩⬜⬜⬜⬜⬜⬜🟩🟩
+⬜️⬜️⬛️⬜️⬜️🟧⬜️⬜️⬛️⬜️⬜️ 🟩⬜⬜⬜⬜⬜⬜⬜⬜🟩
+⬜️⬛️⬛️⬜️⬜️⬜️⬜️⬜️⬛️⬛️⬜️ 🟩⬜⬜⬜⬜⬜⬜⬜⬜🟩
+⬜️⬜️⬛️⬜️⬜️⬜️⬜️⬜️⬛️⬜️⬜️ 🟩🟩⬜⬜⬜⬜⬜⬜🟩🟩
+⬜️⬜️⬛️⬜️⬜️⬜️⬜️⬜️⬛️⬜️⬜️ 🟩🟩🟩⬜⬜⬜⬜🟩🟩🟩
+⬜️⬜️⬜️⬛️🟧⬛️🟧⬛️⬜️⬜️⬜️ 🟩⬜🟩⬜⬜⬜⬜🟩🟩🟩
+⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️ 🟩🟩⬜⬜⬜⬜⬜⬜🟩🟩
