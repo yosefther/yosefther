@@ -27,4 +27,11 @@ Computer Science student exploring low-level programming and always learning som
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yosefther&" alt="yosefther" /></p>
 
 <p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=yosefther&show_icons=true&locale=en&layout=compact" alt="yosefther" /></p>
+###
+
+<br clear="both">
+
+<img src="https://raw.githubusercontent.com/yosefther/yosefther/output/snake.svg" alt="Snake animation" />
+
+###
 
