@@ -1,8 +1,7 @@
-# 💫 About Me:
-Computer Science student exploring low-level programming and always learning something new.<br><br>- Currently learning C and documenting my journey 📖<br>- Writing network-related documents in a dedicated repo 🌐<br>- Familiar with C#, Python, HTML, and CSS 💻<br>- Open to new technologies and challenges 🚀 <br>
+#  About Me:
+<br>Full-stack overflow developer</br>
 
-
-# 💻 Tech Stack:
+#  Tech Stack:
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="42" height="42" /></a>
 <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="42" height="42" /></a>
 <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="42" height="42" /></a>
@@ -20,7 +19,7 @@ Computer Science student exploring low-level programming and always learning som
 <a target="_blank" href="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="42" height="42" /></a>
 <a target="_blank" href="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" style="display: inline-block;"><img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="42" height="42" /></a></p>
 
-# 📊 GitHub Stats:
+#  GitHub Stats:
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=yosefther&show_icons=true&locale=en&theme=default" alt="yosefther" /></p>
 
