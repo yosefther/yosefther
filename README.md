@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm yosef</h1>
+<h1 align="center">Hi 👋</h1>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yosefther&label=Profile%20views&color=fdb02b&style=flat-square" alt="yosefther" /> </p>
 
