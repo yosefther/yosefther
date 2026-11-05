@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="hermes-telegram-assistant: My self-hosted AI assistant, over Telegram. Sandboxed in rootless Podman with approval rules.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#151b33"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="598" height="198" rx="16"/></clipPath>
+    <style>
+      .glow { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .10; } 50% { opacity: .22; } }
+    </style>
+  </defs>
+  <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <rect x="1" y="1" width="598" height="198" rx="16" fill="url(#bg)" stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.5"/>
+    <g clip-path="url(#card)">
+      <circle class="glow" cx="560" cy="30" r="90" fill="#22d3ee"/>
+      <rect x="1" y="1" width="360" height="4" fill="url(#edge)"/>
+    </g>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#22d3ee" fill-opacity="0.16" stroke="#22d3ee" stroke-opacity="0.6"/>
+    <text x="50" y="57" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="18" font-weight="700" fill="#22d3ee">@</text>
+    <text x="86" y="59" font-size="26" font-weight="700" fill="#f1f5f9">hermes-telegram-assistant</text>
+    <text x="32" y="108" font-size="18" fill="#cbd5e1">My self-hosted AI assistant, over Telegram.</text><text x="32" y="134" font-size="18" fill="#cbd5e1">Sandboxed in rootless Podman with approval rules.</text>
+    <rect x="32" y="154" width="74" height="28" rx="14" fill="#c084fc" fill-opacity="0.14" stroke="#c084fc" stroke-opacity="0.55"/><text x="69.0" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#c084fc">Podman</text><rect x="114" y="154" width="83" height="28" rx="14" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.55"/><text x="155.5" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#fbbf24">systemd</text><rect x="205" y="154" width="57" height="28" rx="14" fill="#4ade80" fill-opacity="0.14" stroke="#4ade80" stroke-opacity="0.55"/><text x="233.5" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#4ade80">Bash</text>
+    
+  </g>
+</svg>

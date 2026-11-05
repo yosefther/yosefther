@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="rayCast3D: First-person ray-casting engine using DDA, with a top-down debug view and tests.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#151b33"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="598" height="198" rx="16"/></clipPath>
+    <style>
+      .glow { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .10; } 50% { opacity: .22; } }
+    </style>
+  </defs>
+  <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <rect x="1" y="1" width="598" height="198" rx="16" fill="url(#bg)" stroke="#fbbf24" stroke-opacity="0.45" stroke-width="1.5"/>
+    <g clip-path="url(#card)">
+      <circle class="glow" cx="560" cy="30" r="90" fill="#fbbf24"/>
+      <rect x="1" y="1" width="360" height="4" fill="url(#edge)"/>
+    </g>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#fbbf24" fill-opacity="0.16" stroke="#fbbf24" stroke-opacity="0.6"/>
+    <text x="50" y="57" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="18" font-weight="700" fill="#fbbf24">3D</text>
+    <text x="86" y="59" font-size="26" font-weight="700" fill="#f1f5f9">rayCast3D</text>
+    <text x="32" y="108" font-size="18" fill="#cbd5e1">First-person ray-casting engine using DDA,</text><text x="32" y="134" font-size="18" fill="#cbd5e1">with a top-down debug view and tests.</text>
+    <rect x="32" y="154" width="74" height="28" rx="14" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.55"/><text x="69.0" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#60a5fa">Python</text><rect x="114" y="154" width="74" height="28" rx="14" fill="#4ade80" fill-opacity="0.14" stroke="#4ade80" stroke-opacity="0.55"/><text x="151.0" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#4ade80">Pygame</text><rect x="196" y="154" width="74" height="28" rx="14" fill="#fbbf24" fill-opacity="0.14" stroke="#fbbf24" stroke-opacity="0.55"/><text x="233.0" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#fbbf24">pytest</text>
+    
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img" aria-label="spring-initializr-cli: Generate Spring Boot projects from the terminal. Presets, JSON output, CI on Linux and Windows.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#151b33"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4ade80"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="598" height="198" rx="16"/></clipPath>
+    <style>
+      .glow { animation: pulse 3s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .10; } 50% { opacity: .22; } }
+    </style>
+  </defs>
+  <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <rect x="1" y="1" width="598" height="198" rx="16" fill="url(#bg)" stroke="#4ade80" stroke-opacity="0.45" stroke-width="1.5"/>
+    <g clip-path="url(#card)">
+      <circle class="glow" cx="560" cy="30" r="90" fill="#4ade80"/>
+      <rect x="1" y="1" width="360" height="4" fill="url(#edge)"/>
+    </g>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#4ade80" fill-opacity="0.16" stroke="#4ade80" stroke-opacity="0.6"/>
+    <text x="50" y="57" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', Consolas, 'DejaVu Sans Mono', monospace" font-size="18" font-weight="700" fill="#4ade80">&gt;_</text>
+    <text x="86" y="59" font-size="26" font-weight="700" fill="#f1f5f9">spring-initializr-cli</text>
+    <text x="32" y="108" font-size="18" fill="#cbd5e1">Generate Spring Boot projects from the terminal.</text><text x="32" y="134" font-size="18" fill="#cbd5e1">Presets, JSON output, CI on Linux and Windows.</text>
+    <rect x="32" y="154" width="74" height="28" rx="14" fill="#60a5fa" fill-opacity="0.14" stroke="#60a5fa" stroke-opacity="0.55"/><text x="69.0" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#60a5fa">Python</text><rect x="114" y="154" width="48" height="28" rx="14" fill="#4ade80" fill-opacity="0.14" stroke="#4ade80" stroke-opacity="0.55"/><text x="138.0" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#4ade80">CLI</text><rect x="170" y="154" width="144" height="28" rx="14" fill="#94a3b8" fill-opacity="0.14" stroke="#94a3b8" stroke-opacity="0.55"/><text x="242.0" y="173" text-anchor="middle" font-size="14" font-weight="600" fill="#94a3b8">GitHub Actions</text>
+    
+  </g>
+</svg>

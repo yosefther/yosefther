@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Hi, I'm Yousef. AI engineer, computer vision at Sirocco, Webots contributor.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#101a33"/>
+      <stop offset="1" stop-color="#1a1240"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="0.5" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .t { font-family: 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .m { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'DejaVu Sans Mono', monospace; }
+
+      /* drone hover + scan beam */
+      .drone { animation: hover 4s ease-in-out infinite; }
+      @keyframes hover { 0%,100% { transform: translate(0,0); } 50% { transform: translate(-14px,10px); } }
+      .rotor { animation: spin 0.25s linear infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes spin { from { transform: scaleX(1); } 50% { transform: scaleX(0.25); } to { transform: scaleX(1); } }
+      .beam { animation: sweep 4s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 0%; }
+      @keyframes sweep { 0%,100% { transform: rotate(-12deg); } 50% { transform: rotate(12deg); } }
+      .led { animation: blink 1.2s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0.15; } }
+
+      /* rotating role lines, 4 lines x 3s */
+      .role { opacity: 0; animation: role 12s infinite; }
+      .r2 { animation-delay: 3s; } .r3 { animation-delay: 6s; } .r4 { animation-delay: 9s; }
+      @keyframes role {
+        0% { opacity: 0; transform: translateY(10px); }
+        4%, 21% { opacity: 1; transform: translateY(0); }
+        25%, 100% { opacity: 0; transform: translateY(-10px); }
+      }
+      .cursor { animation: blink 1s steps(1) infinite; }
+
+      /* little detection boxes that pop in under the drone */
+      .box { opacity: 0; animation: detect 4s ease-in-out infinite; }
+      .b2 { animation-delay: 1.3s; } .b3 { animation-delay: 2.6s; }
+      @keyframes detect { 0%,100% { opacity: 0; } 15%,60% { opacity: 1; } 75% { opacity: 0; } }
+
+      .star { animation: twinkle 3s ease-in-out infinite; }
+      .s2 { animation-delay: 1s; } .s3 { animation-delay: 2s; }
+      @keyframes twinkle { 0%,100% { opacity: 0.2; } 50% { opacity: 0.9; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+    <circle cx="1010" cy="40" r="160" fill="#c084fc" opacity="0.08"/>
+    <circle cx="140" cy="300" r="140" fill="#5eead4" opacity="0.06"/>
+
+    <circle class="star" cx="620" cy="40" r="2" fill="#e2e8f0"/>
+    <circle class="star s2" cx="700" cy="250" r="1.6" fill="#e2e8f0"/>
+    <circle class="star s3" cx="560" cy="270" r="1.8" fill="#e2e8f0"/>
+    <circle class="star s2" cx="1150" cy="270" r="1.6" fill="#e2e8f0"/>
+    <circle class="star" cx="760" cy="70" r="1.4" fill="#e2e8f0"/>
+
+    <!-- text -->
+    <text x="70" y="88" class="m" font-size="18" fill="#94a3b8">~/amman $ whoami</text>
+    <text x="68" y="160" class="t" font-size="64" font-weight="800" fill="url(#title)">Hi, I'm Yousef</text>
+
+    <g class="m" font-size="24" fill="#e2e8f0">
+      <text x="70" y="212" fill="#5eead4">&gt;</text>
+      <g transform="translate(0,0)">
+        <text class="role" x="96" y="212">junior AI engineer</text>
+        <text class="role r2" x="96" y="212">computer vision backend @ Sirocco</text>
+        <text class="role r3" x="96" y="212">Webots contributor (C++ renderer)</text>
+        <text class="role r4" x="96" y="212">building CodeAtlas, AI code search</text>
+      </g>
+    </g>
+
+    <g class="t" font-size="15" font-weight="600">
+      <rect x="70" y="244" width="118" height="30" rx="15" fill="#5eead4" fill-opacity="0.12" stroke="#5eead4" stroke-opacity="0.5"/>
+      <text x="129" y="264" text-anchor="middle" fill="#5eead4">AI dev tools</text>
+      <rect x="198" y="244" width="146" height="30" rx="15" fill="#60a5fa" fill-opacity="0.12" stroke="#60a5fa" stroke-opacity="0.5"/>
+      <text x="271" y="264" text-anchor="middle" fill="#60a5fa">computer vision</text>
+      <rect x="354" y="244" width="96" height="30" rx="15" fill="#c084fc" fill-opacity="0.12" stroke="#c084fc" stroke-opacity="0.5"/>
+      <text x="402" y="264" text-anchor="middle" fill="#c084fc">backend</text>
+      <rect x="460" y="244" width="86" height="30" rx="15" fill="#fbbf24" fill-opacity="0.12" stroke="#fbbf24" stroke-opacity="0.5"/>
+      <text x="503" y="264" text-anchor="middle" fill="#fbbf24">drones</text>
+    </g>
+
+    <!-- ground with a "pipeline" being inspected -->
+    <g opacity="0.9">
+      <rect x="800" y="262" width="330" height="14" rx="7" fill="#334155"/>
+      <rect x="800" y="262" width="330" height="5" rx="2.5" fill="#475569"/>
+      <circle cx="860" cy="269" r="9" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+      <circle cx="1070" cy="269" r="9" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
+      <rect class="box" x="840" y="246" width="44" height="40" rx="3" fill="none" stroke="#5eead4" stroke-width="2"/>
+      <text class="box m" x="840" y="240" font-size="11" fill="#5eead4">joint 0.97</text>
+      <rect class="box b2" x="940" y="250" width="60" height="32" rx="3" fill="none" stroke="#fbbf24" stroke-width="2"/>
+      <text class="box b2 m" x="940" y="244" font-size="11" fill="#fbbf24">rust 0.88</text>
+      <rect class="box b3" x="1048" y="246" width="44" height="40" rx="3" fill="none" stroke="#f472b6" stroke-width="2"/>
+      <text class="box b3 m" x="1048" y="240" font-size="11" fill="#f472b6">crack 0.91</text>
+    </g>
+
+    <!-- drone -->
+    <g class="drone">
+      <g transform="translate(965,110)">
+        <polygon class="beam" points="-6,18 6,18 90,150 -90,150" fill="url(#beam)"/>
+        <line x1="-62" y1="-6" x2="62" y2="-6" stroke="#cbd5e1" stroke-width="5" stroke-linecap="round"/>
+        <line x1="-62" y1="-6" x2="-62" y2="-18" stroke="#cbd5e1" stroke-width="4"/>
+        <line x1="62" y1="-6" x2="62" y2="-18" stroke="#cbd5e1" stroke-width="4"/>
+        <ellipse class="rotor" cx="-62" cy="-20" rx="34" ry="4" fill="#94a3b8" opacity="0.8"/>
+        <ellipse class="rotor" cx="62" cy="-20" rx="34" ry="4" fill="#94a3b8" opacity="0.8"/>
+        <rect x="-30" y="-16" width="60" height="28" rx="12" fill="#1e293b" stroke="#5eead4" stroke-width="2.5"/>
+        <circle cx="0" cy="14" r="8" fill="#0f172a" stroke="#60a5fa" stroke-width="2.5"/>
+        <circle cx="0" cy="14" r="3" fill="#60a5fa"/>
+        <circle class="led" cx="-18" cy="-4" r="3" fill="#f43f5e"/>
+        <circle class="led" cx="18" cy="-4" r="3" fill="#22c55e" style="animation-delay:.6s"/>
+        <line x1="-22" y1="12" x2="-30" y2="26" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+        <line x1="22" y1="12" x2="30" y2="26" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>
