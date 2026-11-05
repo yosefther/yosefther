@@ -15,8 +15,8 @@ I'm a CS graduate in Amman, working as a junior AI engineer. I mostly like build
 
 **Other**
 
-- TODO(yosef): role at [Sirocco](https://www.sirocco.digital/), where we build autonomous inspection drones
+- Co-founder and computer vision backend engineer at [Sirocco](https://www.sirocco.digital/), where we build autonomous inspection drones
 - Fixes merged into the [Webots](https://github.com/cyberbotics/webots) robot simulator's renderer: [#7036](https://github.com/cyberbotics/webots/pull/7036), [#7043](https://github.com/cyberbotics/webots/pull/7043), [#7047](https://github.com/cyberbotics/webots/pull/7047), [#7048](https://github.com/cyberbotics/webots/pull/7048)
-- TODO(yosef): hackathon name and result
+- [JOSA Hackathon](https://github.com/siglag/hackathon): a locally hosted medical assistant that helps doctors read records, organize patient data, and research medical questions
 
-**Contact:** TODO(yosef): LinkedIn · TODO(yosef): email
+**Contact:** [LinkedIn](https://www.linkedin.com/in/yousef-thair-alnawaiseh) · [yousef@sirocco.digital](mailto:yousef@sirocco.digital)
