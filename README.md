@@ -1,23 +1,22 @@
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=yosefther.yosefther&"  />
-</div>
-<h1 align="center">Hi I'm Yousef</h1>
+# Hi, I'm Yousef
 
-Computer science student from Jordan, building **[Sirocco](https://sirocco.digital)** and working on drones, computer vision, and autonomous systems.
+I'm a CS graduate in Amman, working as a junior AI engineer. I mostly like building AI developer tools and the backend systems behind them.
 
-I like understanding how things work, building them from scratch, and contributing to open source.
+**Right now:** building CodeAtlas, an AI code search engine for repos. Still in progress.
 
-### What I'm working on
+**Some things I've built**
 
-- **Sirocco** :- drone systems for inspection in hard-to-reach places.
-- **Graduation project** :- drone navigation along predefined routes, using computer vision to react to obstacles.
-- **Open source** :- contributing code, fixing bugs, and learning from other developers.
+- [spring-initializr-cli](https://github.com/yosefther/spring-initializr-cli): a CLI for generating Spring Boot projects from start.spring.io, with presets and JSON output
+- [hermes-telegram-assistant](https://github.com/yosefther/hermes-telegram-assistant): my self-hosted AI assistant over Telegram, locked down in rootless Podman
+- [TODO_golang](https://github.com/yosefther/TODO_golang): a todo app with a Go + SQLite API and a React + TypeScript frontend
+- [rayCast3D](https://github.com/yosefther/rayCast3D): a first-person ray-casting engine in Python and Pygame
+- [Network](https://github.com/yosefther/Network): UDP sockets and packet sniffers in C and Python
+- [Alien-Invasion](https://github.com/yosefther/Alien-Invasion): an arcade shooter in Pygame, with tests
 
-### Interests
+**Other**
 
-Robotics · Computer vision · Backend development · Linux · Networking
+- TODO(yosef): role at [Sirocco](https://www.sirocco.digital/), where we build autonomous inspection drones
+- Fixes merged into the [Webots](https://github.com/cyberbotics/webots) robot simulator's renderer: [#7036](https://github.com/cyberbotics/webots/pull/7036), [#7043](https://github.com/cyberbotics/webots/pull/7043), [#7047](https://github.com/cyberbotics/webots/pull/7047), [#7048](https://github.com/cyberbotics/webots/pull/7048)
+- TODO(yosef): hackathon name and result
 
-Always up for working with people who like building things.
-<div align="center">
-<img src="https://media1.tenor.com/m/eONMbsnMO0MAAAAd/butter-robot.gif" alt="Butter Robot" width="250"></div>
-
+**Contact:** TODO(yosef): LinkedIn · TODO(yosef): email
