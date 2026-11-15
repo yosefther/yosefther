@@ -8,10 +8,10 @@ Languages I use: Python, Go, C/C++, and SQL.
 
 ## Projects
 
-- [Ironlark](https://github.com/yosefther/Ironlark): Drone simulation and navigation.
-- [Spring Initializr CLI](https://github.com/yosefther/spring-initializr-cli): Set up Spring Boot projects from the terminal.
-- [TODO Go](https://github.com/yosefther/TODO_golang): A Go and SQLite REST API with a React frontend.
-- [Network](https://github.com/yosefther/Network): Experiments with sockets and packet sniffing.
+- [Ironlark](https://github.com/yosefther/Ironlark): A Linux drone simulation setup with Webots, ArduPilot, ROS 2, and Docker. Includes sensor recording, flight checks, and renderer patches.
+- [Zagoat](https://github.com/yosefther/zagoat): A coding practice platform with a FastAPI backend, Postgres, Redis job queues, OAuth, and a containerized code runner. Still in development.
+- [Corporate Financial Statement Analyzer](https://github.com/yosefther/Corporate-Financial-Statement-Analyzer): A C# desktop app for reviewing financial statements and metrics, with a web dashboard demo.
+- [RayCast3D](https://github.com/yosefther/rayCast3D): A ray-casting engine built with Python and Pygame, with collision detection, a minimap, and a ray debug view.
 
 ## Open source contributions
 
